@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="cor">
+  <table  style="color: rgb(184,32,82); background-color: rgba(221,160,221,0.525); position: fixed;" class="navigationBar">
+    <tr>
+      <th>WORKSPACE</th>
+    </tr>
+    <nav>
+    <tr>
+      <td><a class="active" target="_blank" href="http://127.0.0.1:3000/assignment%20Home.html">Home</a> </td>
+    </tr>
+    <tr>
+      <td>      <a class="" target="_blank" href="http://127.0.0.1:3000/customer.html" >Customers</a>
+      </td>
+    </tr>
+    <tr>
+      <td>      <a class="" target="_blank" href="http://127.0.0.1:3000/assignment department.html" >Department</a>
+      </td>
+    </tr>
+    <tr>
+      <td>      <a class="" target="_blank" href="http://127.0.0.1:3000/assignment Media.html" >Media</a>
+      </td>
+    </tr>
+    </nav>
+  </table>
+
+
+  <h1 align="right"><input type="text" name="search" id="search" placeholder="search for home">
+    <label for="search"> search</label>
+
+  </h1>
+  <div id="cor2">
+    <form action = "javascript:submitform()" onSubmit = "return validate()">
+     <input type="file" name="image" id="image" accept="image/*">
+    <label for="image" style="font-size: 30px;">:-Enter Image File</label><br><br><br><br>
+      <label for = "name" style="font-size: 20px;">Enter Name: </label>
+      <input type = "text" name = "name" id = "name" placeholder="Eg: Anubhav mohanty" required><br><br><br><br>
+      <label for="Email" style="font-size: 20px;">Enter Email:</label>
+      <input type="text" name="Email" id="Email" placeholder="Eg:abchxc@gmail.com" required><br><br><br><br>
+      <div>
+     <input type="number" name="call" id="call" placeholder="Eg:91xxxxxxxxxx">
+     <label for="call" style="font-size: 20px;"> Phone Number</label>
+      </div><br><br><br><br>
+      <div>
+       <input type="date" name="dob" id="dob">
+       <label for="bob" style="font-size: 20px;"> Date of Birth</label>
+      </div><br><br><br><br>
+      <div>
+        <input type = "submit" name = "submit" value = "Submit">
+      </div>
+    </form>
+
+            
+             <script>
+                function validate() {
+                validate=true;
+                let ele = document.getElementById("name");
+                if(ele.value.length <= 10) {
+                  window.alert("name length must be greater than 10 characters");
+                  validate=false;
+                } 
+                return validate;
+                } 
+              function submitform() {
+                window.alert("Form Submitted");
+              }
+        </script>
+
+    
+  </div>
+  <footer class="navigationBar"><a class="" target="_blank" href="http://127.0.0.1:3000/assignment account.html" onClick="activeAccount()" id="Account" style="font-size: 20px;">My Account</a></footer>
+  
+  </body>
+
+  </html>
