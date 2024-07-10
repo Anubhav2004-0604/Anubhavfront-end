@@ -1,0 +1,191 @@
+#cor {
+   background-color: rgba(221, 160, 221, 0.525);
+   color: rgb(184, 32, 82);
+}
+
+.display1 {
+
+   display: flex;
+   justify-content: flex-end;
+
+
+   width: 50;
+   padding: 10px 10px 10px;
+}
+
+.display2 {
+
+   background-color: aquamarine;
+   font-size: 20px;
+   width: 50;
+   color: black;
+   border-radius: 26px;
+}
+
+.dis2 {
+
+   background-color: aquamarine;
+   display: inline-block;
+   width: 300px;
+   height: 150px;
+   display: flex;
+   margin: 20px;
+   border-radius: 26px;
+   justify-content: center;
+
+}
+
+.display3 {
+   background-color: rgb(63, 63, 100);
+   font-size: 20px;
+   width: 50;
+   color: black;
+   border-radius: 26px;
+}
+
+.dis3 {
+   background-color: rgb(63, 63, 100);
+   display: inline-block;
+   width: 300px;
+   height: 150px;
+   display: flex;
+   margin: 20px;
+   border-radius: 26px;
+   justify-content: center;
+
+
+
+}
+
+.display4 {
+   background-color: palevioletred;
+
+   font-size: 20px;
+   width: 50;
+   color: black;
+   border-radius: 26px;
+
+}
+
+.dis4 {
+   background-color: palevioletred;
+   display: inline-block;
+   width: 300px;
+   height: 150px;
+   display: flex;
+   margin: 20px;
+   border-radius: 26px;
+   justify-content: center;
+
+}
+
+table {
+   color: black;
+   background-color: aliceblue;
+
+}
+
+#cor2 {
+   background-color: aliceblue;
+   height: 1200px;
+
+   margin-left: 150px;
+
+
+}
+
+
+
+
+.display5 {
+   display: flex;
+   justify-content: flex-end;
+
+
+   width: 50;
+   padding: 10px 10px 10px;
+
+}
+
+.display5 {
+   display: flex;
+   justify-content: flex-end;
+
+
+   width: 50;
+   padding: 10px 10px 10px;
+
+}
+
+.display6 {
+   background-color: rgba(169, 174, 94, 0.621);
+   display: inline-block;
+   width: 300px;
+   height: 250px;
+   display: flex;
+   margin: 30px;
+   border-radius: 26px;
+   justify-content: center;
+}
+
+.dis6 {
+   background-color: rgba(169, 174, 94, 0.621);
+   font-size: 20px;
+   width: 200px;
+   color: black;
+   border-radius: 26px;
+
+
+}
+.grid-container{
+   display: grid;
+   height: 70px;
+   width: 40;
+   padding: 50px;
+   margin-bottom:250px;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto auto ;
+   gap:15px 15px;
+   grid-auto-flow: row;
+
+}
+.grid-item1{
+   border: solid black;
+   
+}
+.grid-container1{
+   display: grid;
+   height: 70px;
+   width: 35px;
+   padding: 50px;
+   margin-bottom:100px;
+   grid-template-columns: auto auto auto ;
+   grid-template-rows: auto ;
+   gap:15px 15px;
+   grid-auto-flow: row;
+
+
+}
+.grid-item2{
+   border: solid black;
+
+   
+}
+
+
+  
+.navigationBar a:hover{     
+   background-color: #eb13ad;
+  color: black;
+}
+
+ 
+
+ .navigationBar a {
+   float: left;
+   color: #44253f;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
